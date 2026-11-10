@@ -95,17 +95,6 @@ Only `game.c` and `game.h` are original game code. The rest comes from ST's BSP 
 | `No rule to make target ...` | A deleted file is still listed in the project. Remove it from the project tree. |
 | Joystick does not respond | In `Game_Init()`, change `JOY_MODE_GPIO` to `JOY_MODE_EXTI`. |
 
-## Possible improvements
-
-- Wrap-around walls option
-- Sound using the board's audio codec
-- High score saved to flash
-- Difficulty levels
-
-## Licence and credits
-
-- Game code (`game.c`, `game.h`): add your own licence here (for example MIT).
-- Files from STMicroelectronics (HAL, BSP, CMSIS, startup, system and example files) keep their original licences. See the headers in each file.
 
 ## Author
 
